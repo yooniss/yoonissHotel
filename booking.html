@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Welcome to the most extraordinary Hotel In Nigeria">
+    <meta name="keywords" content="Hotel, Colombia, Hotel in Colombia, New Colombia Hotel">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <title>yooniss Hotel| Welcome</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo"><a href="home.html">YOONISS HOTEL</a></h1>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a class="current" href="booking.html">Reservation</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="E">
+    <section id="contact-form" class="py-3">
+        <div class="container">
+<div class="form-group">
+    <h1 class="l-heading"><span class="text-primary">Make</span> Reservations</h1>
+    <form action="process.php">
+        <div class="form-group">
+            <label for="name">firstName</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div class="form-group">
+            <label for="name">lastName</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        
+        <div class="form-group">
+            <label for="number of guests">Number of guests</label>
+            <select name="guests">
+                <option value="0" selected disabled>select number of guests</option>
+                <option value="jan">1</option>
+                <option value="feb">2</option>
+                <option value="mar">3</option>
+                <option value="apr">4</option>
+                <option value="may">5</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="room type">Room Type</label>
+            <select name="room">
+                <option value="0" selected disabled>pick a room</option>
+                <option value="jan">Vip Suite</option>
+                <option value="feb">Delux Suite</option>
+                <option value="mar">Exclusive Suite</option>
+                <option value="apr">Ambassador Suite</option>
+                <option value="apr">Double Suite</option>
+                </select>
+        </div>
+        <div class="form-group">
+            <label for="number of children">number of children</label>
+            <select name="children">
+                <option value="0" selected disabled>select number of children</option>
+                <option value="jan">0</option>
+                <option value="feb">1</option>
+                <option value="mar">2</option>
+                <option value="apr">3</option>   
+            </select>
+        </div>
+            
+        <div class="form-group">
+            <label for="arrival date and time">date of arrival and time:</label>
+            <select name="arrival">
+                <option value="0" selected disabled>Month</option>
+                <option value="jan">January</option>
+                <option value="feb">February</option>
+                <option value="mar">March</option>
+                <option value="apr">April</option>
+                <option value="may">May</option>
+                <option value="june">June</option>
+                <option value="jul">July</option>
+                <option value="aug">August</option>
+                <option value="sep">September</option>
+                <option value="oct">October</option>
+                <option value="nov">November</option>
+                <option value="dec">December</option>
+                </select>
+                
+                <select name="date">
+                <option value="0" selected disabled>date</option>
+                <option value="jan">1</option>
+                <option value="feb">2</option>
+                <option value="mar">3</option>
+                <option value="apr">4</option>
+                <option value="may">05</option>
+                <option value="june">06</option>
+                <option value="jul">07</option>
+                <option value="aug">08</option>
+                <option value="sep">09</option>
+                <option value="oct">10</option>
+                <option value="nov">11</option>
+                <option value="dec">12</option>
+                </select>
+                <select name="year">
+                <option value="0" selected disabled>year</option>
+                <option value="jan">2010</option>
+                <option value="feb">2011</option>
+                <option value="mar">2012</option>
+                <option value="apr">2013</option>
+                <option value="may">2014</option>
+                <option value="june">2015</option>
+                <option value="jul">2016</option>
+                <option value="aug">2017</option>
+                <option value="sep">2018</option>
+                <option value="oct">2019</option>
+                <option value="nov">2020</option>
+                <option value="dec">2021</option>
+                </select>
+                <select name="time">
+                <option value="0" selected disabled>time</option>
+                <option value="AM">AM</option>
+                <option value="PM">PM</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="departure date and time">date of arrival and time:</label>
+                <select name="departure">
+                    <option value="0" selected disabled>Month</option>
+                    <option value="jan">January</option>
+                    <option value="feb">February</option>
+                    <option value="mar">March</option>
+                    <option value="apr">April</option>
+                    <option value="may">May</option>
+                    <option value="june">June</option>
+                    <option value="jul">July</option>
+                    <option value="aug">August</option>
+                    <option value="sep">September</option>
+                    <option value="oct">October</option>
+                    <option value="nov">November</option>
+                    <option value="dec">December</option>
+                    </select>
+                    
+                    <select name="date">
+                    <option value="0" selected disabled>date</option>
+                    <option value="jan">1</option>
+                    <option value="feb">2</option>
+                    <option value="mar">3</option>
+                    <option value="apr">4</option>
+                    <option value="may">05</option>
+                    <option value="june">06</option>
+                    <option value="jul">07</option>
+                    <option value="aug">08</option>
+                    <option value="sep">09</option>
+                    <option value="oct">10</option>
+                    <option value="nov">11</option>
+                    <option value="dec">12</option>
+                    </select>
+                    <select name="year">
+                    <option value="0" selected disabled>year</option>
+                    <option value="jan">2010</option>
+                    <option value="feb">2011</option>
+                    <option value="mar">2012</option>
+                    <option value="apr">2013</option>
+                    <option value="may">2014</option>
+                    <option value="june">2015</option>
+                    <option value="jul">2016</option>
+                    <option value="aug">2017</option>
+                    <option value="sep">2018</option>
+                    <option value="oct">2019</option>
+                    <option value="nov">2020</option>
+                    <option value="dec">2021</option>
+                    </select>
+                    <select name="time">
+                    <option value="0" selected disabled>time</option>
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">any other recommendation?</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="payment">Select Payment</label>
+                    <select name="payment">
+                        <option value="0" selected disabled>select method of payment</option>
+                        <option value="jan">Visa card</option>
+                        <option value="feb">master card</option>
+                        <option value="mar">verve</option>
+                        <option value="apr">others</option>   
+                    </select>
+                </div>
+        
+        <button type="submit" class="btn">Submit</button>
+    </form>
+</div>
+</section>
+    </div>
+<div class="clr"></div>
+</div>
+    <footer id="main-footer">
+        <p>yooniss Hotel &copy; 2020, All Rights Reserved</p>
+    </footer>
+</body>
+</html>
